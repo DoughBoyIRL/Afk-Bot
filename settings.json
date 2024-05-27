@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "bot",
+    "username": "AFKBOT",
     "password": "your_password",
     "type": "microsoft"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.19.3"
+    "ip": "TownPL.aternos.me",
+    "port": 12229,
+    "version": "1.20.6"
   },
 
   "position": {
@@ -27,8 +27,8 @@
     "anti-afk": {
       "enabled": false,
       "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
         "enabled": false,
@@ -49,14 +49,14 @@
 
       "messages": [
         "I'm a regular player ",
-        "My owner is urFate_ ",
+        "My owner is _DoughBoy ",
         "I want be alone ",
         "Visit my GitHub page! (urFate/Afk-Bot)"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
